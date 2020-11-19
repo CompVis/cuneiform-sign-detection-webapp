@@ -1,0 +1,348 @@
+body{
+	text-align: center;
+}
+
+.root
+{
+	position: relative;
+	width: 910px;
+	margin-left: auto;
+    margin-right: auto;
+    border:1px solid #a1a1a1; 
+    border-radius: 10px;
+    
+}
+.thumbnail
+{
+	float: center;
+	display:inline-block;
+	width: 200px;
+	border: 1px solid #999;
+	margin: 5px;	
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.thumbnail:hover{
+	border: 1px solid #000000;
+	background-color: ivory;
+}
+.button
+{
+	position: relative;
+	top:3px;
+	background-color:palegreen; 
+	border:1px solid #999; 
+	padding:5px;
+	border-radius: 5px;
+	cursor: pointer; 
+}
+
+.button:hover{
+	border: 1px solid #000000;
+}
+.no
+{
+	background-color:salmon;
+	cursor: default; 
+}
+.almost
+{
+	background-color:khaki; 
+}
+
+.yes 
+{
+	background-color:palegreen;
+}
+.clearboth 
+{ 
+	clear: both; 
+}
+
+.gallery{
+	position: relative;
+	top:10px;
+	width: 1150px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border:1px solid #a1a1a1; 
+    border-radius: 10px;
+}
+
+img
+{ 
+	align: center;
+    max-width: none;
+    max-height: none;
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+
+.container {
+  position: relative;
+}
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 500px;
+  background-color: white;
+  width: 200px;
+  border: 2px solid #a1a1a1;
+  border-radius: 10px;
+  text-align: center;
+}
+.infoPanel 
+{
+  position: fixed;
+  top: 510;
+  left: 0;
+  height: 100px;
+  background-color: white;
+  width: 200px;
+  border: 2px solid #a1a1a1;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.content { 
+  margin-left: 200px;
+}
+
+.statusSelected {
+  background: red;
+}
+
+.statusDefault {
+  background: white;
+}
+
+.numberArea {
+	border: 1px solid gray;   
+	position: relative;
+	top: -6;  
+	margin-left: auto;
+    margin-right: auto;
+    width: 3em; 
+    text-align: center;
+}
+
+.nameArea {
+	top: -3;
+	width: 8em;
+	bottom: 4;
+	margin-right: 3;
+	}
+.signInfo {
+  	float: center;
+  	margin: 3;
+  	top: 0;
+  	left: 5;
+  	width: 160;
+    background-color: white;
+    border: 1px solid gray;
+  	border-radius: 3px;
+  	margin-left: auto;
+    margin-right: auto;
+}
+input {
+	width: 14em;
+}
+
+.hoverInfo {
+	position: float;
+  	top: 5%;
+    margin:auto;
+    width: 55em;
+    background-color: white;
+    border: 2px solid #a1a1a1;
+  	border-radius: 10px;
+  	display: none;
+  	padding-bottom: 5px;
+  	
+}
+
+.hoverZoom {
+	position: fixed;
+  	top: 50;
+    left: 220;
+    background-color: white;
+    border: 1px solid #a1a1a1;
+  	border-radius: 10px;
+  	display: none;
+}
+
+
+.buttonNormal
+{
+	float: center;
+	display:inline-block;
+	background-color:white; 
+	border-radius: 5px; 
+	border: 1px solid #a1a1a1;
+	width: 160; 
+	line-height: 15px;
+	padding: 3px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 3px;	
+	margin-bottom: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+div.buttonNormal:hover
+{
+	 	border: 1px solid #000000;
+	 	background-color: gainsboro; 
+	 	cursor: pointer; 
+}
+
+.disabled
+{
+	color: grey;
+	cursor: default;
+}
+
+.popText {
+	position: relative;
+	margin-left: 20%;
+    margin-right: auto;
+}
+
+input[type="text"] {
+	border: 1px solid gray; 
+	width: 40em; 
+	top: 3em;
+	bottom: 2em;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
+.statusSelected {
+	
+		background-color:black;
+		color: white;
+		
+}
+.smallBox {
+    float: left;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom:0.2em;
+	width: 1em;
+	height: 1em;
+	border-radius: 3px; 
+}
+
+.popUp {
+  /*  position: fixed;*/
+}
+.popupButton {
+	float: center;
+	display:inline-block;
+	border: 1px solid #a1a1a1;
+	width: 3.5em; 
+	line-height: 15px;
+	text-align: center;
+}
+
+.popText {
+	text-align: center;
+	position: relative;
+	margin-left: 5%;
+    margin-right: 5%;
+}
+
+.infoPanel 
+{
+  position: fixed;
+  top: 40.875em;
+  left: 5px;
+  background-color: white;
+  width: 200px;
+  border: 2px solid #a1a1a1;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.infoHelp
+{
+	width:12em;
+	top: 31.875em;
+	height: 6em;
+	text-align: left;
+	padding-left: 0.5em;
+}
+
+.signEdit {
+	z-align:2;
+	margin: 0 auto;
+  	top: 10em;
+    background-color: white;
+    border: 1px solid gray;
+  	border-radius: 10px;
+  	padding: 10;
+  	text-align: center;
+  	display:none;
+  	width: 910px;
+  	}
+  	
+.button2
+{
+	position: relative;
+	background-color:white; 
+	border-radius: 5px; 
+	border: 2px solid #a1a1a1;
+	width: 160; 
+	line-height: 15px;
+	padding: 3px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 3px;	
+	vertical-align: middle;
+}
+div.statusButton:hover {
+	border: 1px solid #000000;
+}
+
+.trash {
+	background-image: url("./lib/delete.svg");
+    height: 1em;
+    margin-left: auto;
+    margin-right: 0.2em;
+    width: 1em;
+}
+
+.center {
+	text-align: center;
+	float: center;
+}
+.helpButton {
+	
+	line-height: 13px;
+	float: center;
+	width: 0.8em;
+	margin-left: 3px;
+    margin-right: 3px;
+   
+}
+
+.new form  { display: table;      }
+.new p     { display: table-row;  }
+.new label { display: table-cell; }
+.new input { display: table-cell; }
+
+.tab  { display: table;      }
+.tabRow { display: table-row;  }
+.tabCell { display: table-cell; 
+		 width: 7em;
+		 border-radius:5px;}
+.tableftCell { display: table-cell; 
+		 width: 7em;
+		 text-align:left;}
